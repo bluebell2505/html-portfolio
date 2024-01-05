@@ -1,19 +1,3 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
-
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,20 +6,77 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
 </head>
     <body>
         <h1>Vasundhara's Portfolio</h1>
-        <h2>I'm a Student </h2>
+        
+        <table>
+            <tr>
+                <td>
+                            <img width = "300" src="https://media.licdn.com/dms/image/D4D03AQFETfgGhY2q1w/profile-displayphoto-shrink_800_800/0/1703702175664?e=1709769600&v=beta&t=uqQKxOKKK8X7Ta5WsZZuwMqFczKgbux2gTwMTTBGhB4" alt="Vasundhara Dixit's Photo">
+                </td>
+                <td>
+                    <h1>Vasundhara Chakradhar Dixit</h1>
+                    <p><i>I'm a Student</i></p>
+                </td>
+            </tr>
+        </table>
+        
         <hr/>
 
-        <a href = "./public/movie-ranking.html">Series Ranking Project</a>
-        <img src="./assets/images/Movie Ranking Project.png">
+        <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <h2>Education</h2>
+        <table border="">
+            <!--tr>th*4...enter-->
+            <tr>               
+                <th>Course</th>
+                <th>Institute</th>
+                <th>Year</th>
+                <th>Result</th>
+                
+                <!--tr*2>td*4...enter-->
+                <tr>
+                    <td>CSE (IoT, Cyber Security, Blockchain)</td>
+                    <td>VIIT</td>
+                    <td>2027</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>12<sup>th</sup> Grade</td>         
+                    <td>City International School, Wanowrie</td>
+                    <td>2023</td>
+                    <td>69%</td>
+                </tr>
+            </tr>
+        </table>
+        
+        <!---------------------------------------------------------------------------------------------------------------------->
+
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <a href = "./public/movie-ranking.html"><strong>Series Ranking Project</strong></a>
+                <p></p>
+                <img width=500 border="1" src="./assets/images/Movie Ranking Project.png">
+            </li>
+        <hr/>
+            <li>
+                <a href = "./public/birthday-invite.html"><strong>Birthday Invite Project</strong></a>
+                <p></p>
+                <img width="500" border="1" src="./assets/images/Birthday Invite Project.png">
+
+            </li>
+        </ul>
+
+
+
+        <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        
+        
 
         <hr />
         
-        <a href = "./public/birthday-invite.html">Birthday Invite Project</a>
-        <img src="./assets/images/Birthday Invite Project.png">
-
+        
         <hr/>
 
-        <a href="./public/about.html">About Me</a>
+        <a href="./about.html">About Me</a>
         <br/>
         <a href="./public/contact.html">Contact Me</a>
     </body>
